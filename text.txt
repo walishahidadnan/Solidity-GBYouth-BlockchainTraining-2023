@@ -1,0 +1,26 @@
+In the first task you need to calculate and verify the hash of a file named
+“Lab5-6-2023.pdf” on LMS.
+a. upload the file to an online hash calculator service and calculate its hash
+using the SHA-256 hash function.
+Write a program yourself which does the following:
+b. accepts the online hash calculated in (1.a) as input and stores it
+c. imports the above-mentioned file in your code and calculate the hash
+(using SHA-256 hash function of hashlib python library)
+d. compare both hashes from (b) and (c) and print out a message indicating
+whether they match or not.
+2. Create a text file containing random content of your own choice. Write a
+program that calculates SHA-256 hash of this file. Demonstrate the
+avalanche effect using this program, by making changes in the content.
+3. Download the files named message1.bin and message2.bin from the
+following links:
+Message1.bin:
+https://drive.google.com/file/d/14KwmJ-cD-bOrGz65Nh7jpJTEyoac3tpq/vie
+w?usp=drive_link
+Message2.bin:
+https://drive.google.com/file/d/1U2K4cOks8Nb78kcJe6u4n8JP0HD2AhWk/v
+iew?usp=drive_link
+a. Import these files.
+b. Write a program that calculates the MD5 and SHA-1 hashes of the
+downloaded files and prints out the results on the screen.
+c. What results do you get? Describe your findings.
+[Hint: Why wasn’t MD5 given a driving license?
